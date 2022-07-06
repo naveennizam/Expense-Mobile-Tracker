@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Expense Tracker</h1>
+    
+        <h3>Your Balance</h3>
+        <h1 id="balance">$0.00</h1>  <!--  it is dummy -->
+        <div class="inc_exp">
+            <div>
+                <h4>INCOME</h4>
+                <p id="money-plus" class="money-plus"> +Rs 0.00</p> <!--  it is dummy -->
+
+            </div>
+            <span class="vertical"></span>
+            <div>
+                <h4>EXPENSE</h4>
+                <p id="money-minus" class="money-minus"> -Rs0.00</p>    <!--  it is dummy -->
+
+            </div>
+
+        </div>
+
+        <h3>HISTORY</h3>
+        <ul class="shoe">
+            <li id="list" class="minus">
+                Cash <span>-$400</span>  <!--  it is dummy -->
+                <button class="delete">x</button>
+            </li>
+        </ul>
+
+        <h3>Add New Transaition</h3>
+        <hr>
+        <form action="" id="form">
+            <div class="form-control">
+                <label for="Text">Text</label>
+                <input type="text" name="Text" id="text" placeholder="Enter text..." required>
+
+            </div>
+
+            <div class="amount-control">
+                <label for="Amount">Amount</label>
+                <input type="number" name="Amount" id="amount" placeholder="Enter amount..." required>
+
+            </div>
+            <button class="btn">All Transaction</button>
+
+        </form>
+
+    </div>
+
+
+
+
+
+    <script src="./assests/index.js"></script>
+</body>
+
+</html>
